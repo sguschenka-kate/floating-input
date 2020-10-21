@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: #f0f8ff;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+h2 {
+  color: #fff;
+}
+
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fffa;
+  padding: 15px 25px 5px;
+}
+
+.box {
+  background: #8aa5a8;
+  padding: 10px 20px 30px 20px;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.username-box {
+  margin-bottom: 10px;
+}
+
+.password-box {
+  margin-bottom: 30px;
+}
+
+.input-box {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 42px;
+  transition: 0.5s;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  pointer-events: none;
+}
+
+input:focus ~ label {
+  top: -2px;
+  font-size: 12px;
+  color: #ccccff;
+}
+
+.button {
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
